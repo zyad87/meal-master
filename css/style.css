@@ -112,3 +112,7 @@
   .features-style-one .features-btn {
     margin-top: 32px;
   }
+  .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    font-size: larger;
+}
