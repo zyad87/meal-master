@@ -113,6 +113,11 @@
     margin-top: 32px;
   }
   .btn:not(:disabled):not(.disabled) {
-    cursor: pointer;
-    font-size: larger;
+    font-size:large;
+}
+@media (max-width: 450px) {
+  .btn:not(:disabled):not(.disabled) {
+    font-size:medium;
+    margin-bottom: 30px;
+}
 }
